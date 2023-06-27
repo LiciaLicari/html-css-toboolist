@@ -1,24 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>toboolist</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
 
+    <header id="site_header">
+        <div class="logo">
+            <img class="logo_img" width="40" src="./img/Logo.png" alt="logo image">        
+        </div>
+        <h1>Toboolist</h1>
     </header>
+    <!--/header-->
+
     <main>
-        <header></header>
-        <section></section>
-        <section></section>
-        <section></section>
+        <div class="container">
+            <div id="actions">
+                <input type="button" value="Add Task" id="btn_newtask">
+                <input type="button" value="Add Section" id="btn_newsection">
+            </div>
+            <!--/#actions-->
+            <div id="options">
+                <ul>
+                    <li class="option">
+                        <h2><span>&dtrif;</span>New Task</h2>
+                        <ul>
+                            <li><span class="done">&check;</span>Quarterly newsletter <span class="item-type editorial">Editorial</span></li>
+                        </ul>
+                    </li>
+                    <li class="option">
+                        <h2><span>&dtrif;</span>Today</h2>
+                        <ul>
+                            <li><span class="done">&check;</span>Recruiting blog post <span class="item-type editorial">Editorial</span></li>
+                            <li><span class="done">&check;</span>Mobile app launch <span class="item-type q1_goals">Q1 Goals</span></li>
+                            <li><span class="notdone">&cross;</span>Interview John H. <span class="item-type recruiting">Recruiting</span></li>
+                            <li><span class="done">&check;</span>Summit update to mobile storefronts <span class="item-type mobile">Mobile</span></li>
+                        </ul>
+                    </li>
+                    <li class="option">
+                        <h2><span>&dtrif;</span>Upcoming</h2>
+                        <ul>
+                            <li><span class="notdone">&cross;</span>Schedule meeting with Alex</li>
+                            <li><span class="done">&check;</span>Homepage refresh <span class="item-type website">Website</span></li>
+                            <li><span class="done">&check;</span>Onboard new Sales team members <span class="item-type sales">Sales</span></li>
+                            <li><span class="done">&check;</span>Review editorial calendar <span class="item-type editorial">Editorial</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--/#options-->
+        </div>
     </main>
-    <footer>
-        
-    </footer>
+    <!--/main-->
 </body>
+<!--/body-->
 </html>

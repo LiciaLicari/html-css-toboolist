@@ -3,3 +3,140 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+    --bool-white: #ffffff;
+    --bool-dark: #010001;
+    --bool-gray: #f6f8f9;
+    --bool-editorial: #47adf1;
+    --bool-goals: #9c72e4;
+    --bool-recruiting: #64c0a8;
+    --bool-mobile: #f29d33;
+    --bool-website: #d863a0;
+    --bool-sales: #b0c926;
+  }
+.option-type {
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: var(--bool-white);
+    font-size: 10px;
+}
+
+.editorial {
+    background-color: var(--bool-editorial);
+
+}
+
+.q1_goals {
+    background-color: var(--bool-goals);
+}
+
+.recruiting {
+    background-color: var(--bool-recruiting);
+}
+
+.mobile {
+    background-color: var(--bool-mobile);
+}
+
+.website {
+    background-color: var(--bool-website);
+}
+
+.sales {
+    background-color: var(--bool-sales);
+}
+
+.done {
+    margin-right: 10px;
+    border: 1px solid green;
+    padding: 2px 5px;
+    color: green;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.notdone {
+    margin-right: 10px;
+    border: 1px solid red;
+    padding: 2px 5px;
+    color: red;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+body {
+    background-color: var(--bool-background);
+}
+.logo {
+    padding: 1rem;
+    background-color: var(--bool-white) ;
+    margin-bottom: 60px;
+}
+
+.logo img {
+    vertical-align: -70%;
+}
+
+.logo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    display: inline-block;
+}
+
+main .container {
+    width: 70%;
+    background-color: var(--bool-white);
+    margin: auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+div#options {
+    padding: 15px 40px 10px;
+    border-bottom: 1px solid var(--bool-background);
+}
+
+div#options #btn_newtask {
+    background-color: var(--bool-primary);
+    color: white;
+    border: 0;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+div#options #btn_newsection {
+    background-color: #fff;
+    color: lightgray;
+    border: 1px solid lightgray;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+
+div#items {
+    padding: 0 30px;
+}
+
+div#items ul {
+    list-style-type: none;
+}
+
+div#items .item > span {
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+div#items .item {
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+div#items .item ul li{
+    padding: 10px;
+}
+
+div#items .item-type {
+    margin-left: 10px;
+}
