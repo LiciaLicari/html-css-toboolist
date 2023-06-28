@@ -76,13 +76,14 @@ body {
 }
 
 .logo img {
-    vertical-align: -70%;
+    vertical-align: middle;
 }
 
 .logo h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     display: inline-block;
+    vertical-align: middle;
 }
 
 main .container {
