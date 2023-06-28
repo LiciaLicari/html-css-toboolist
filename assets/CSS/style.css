@@ -101,7 +101,8 @@ body {
 main .container {
     width: 60%;
     background-color: var(--bool-white);
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     font-family: 'Mulish', sans-serif;
@@ -112,7 +113,7 @@ hr {
 }
 
 div#options {
-    padding: 15px 0px 40px;
+    padding: 15px 40px 40px;
     border-bottom: 1px solid var(--bool-background);
 
 }
@@ -121,10 +122,10 @@ div#actions #btn_newtask {
     background-color: var(--bool-editorial);
     background-repeat: no-repeat;
     margin: 4px;
-    padding-left: 3%;
-    padding-top: 3%;
-    padding-right: 3%;
-    padding-bottom: 3%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
     border-radius: 15%;
     color: #ffffff;
     border: none;
@@ -140,10 +141,10 @@ div#actions #btn_newsection {
     color: lightgray;
     border: 1px solid lightgray;
     margin: 4px;
-    padding-left: 3%;
-    padding-top: 3%;
-    padding-right: 3%;
-    padding-bottom: 3%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
     border-radius: 15%;
     cursor: pointer;
     overflow: hidden;
