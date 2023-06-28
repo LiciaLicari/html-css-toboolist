@@ -107,6 +107,10 @@ main .container {
     font-family: 'Mulish', sans-serif;
 }
 
+hr {
+    background-color: solid var(--bool-background)
+}
+
 div#options {
     padding: 15px 0px 40px;
     border-bottom: 1px solid var(--bool-background);
@@ -124,14 +128,12 @@ div#options #btn_newtask {
 
 div#options #btn_newsection {
   
-    background-color: Transparent;
-    background-repeat:no-repeat;
+    background-color: transparent;
+    background-repeat: no-repeat;
     border: none;
-    cursor:pointer;
+    cursor: pointer;
     overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0);
-    color: lightgray;
+    outline: none;
 }
 
 .item-type {
