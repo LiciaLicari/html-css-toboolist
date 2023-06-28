@@ -47,6 +47,7 @@
 }
 
 .done {
+    font-size: 60%;
     margin-right: 10px;
     border: 1px solid green;
     padding: 2px 5px;
@@ -57,6 +58,7 @@
 }
 
 .notdone {
+    font-size: 60%;
     margin-right: 10px;
     border: 1px solid red;
     padding: 2px 5px;
@@ -66,8 +68,11 @@
     vertical-align: middle;
 }
 
+
+
 body {
     background-color: var(--bool-gray);
+    line-height: 30px;
 }
 
 #actions {
@@ -94,17 +99,18 @@ body {
 }
 
 main .container {
-    width: 70%;
+    width: 60%;
     background-color: var(--bool-white);
-    margin: auto;
+    margin-left: auto;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     font-family: 'Mulish', sans-serif;
 }
 
 div#options {
-    padding: 15px 40px 10px;
+    padding: 15px 0px 40px;
     border-bottom: 1px solid var(--bool-background);
+
 }
 
 div#options #btn_newtask {
@@ -125,7 +131,7 @@ div#options #btn_newsection {
 
 .item-type {
     padding: 5px;
-    border-radius: 7px;
+    border-radius: 12px;
     color: white;
 }
 
