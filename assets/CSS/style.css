@@ -67,8 +67,15 @@
 }
 
 body {
-    background-color: var(--bool-background);
+    background-color: var(--bool-gray);
 }
+
+#actions {
+    padding: 15px 30px;
+    border-bottom: 2px solid var(--bool-background);
+}
+
+
 .logo {
     padding: 1rem;
     background-color: var(--bool-white) ;
@@ -92,6 +99,7 @@ main .container {
     margin: auto;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    font-family: 'Mulish', sans-serif;
 }
 
 div#options {
@@ -113,6 +121,12 @@ div#options #btn_newsection {
     border: 1px solid lightgray;
     padding: 6px;
     border-radius: 5px;
+}
+
+.item-type {
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
 }
 
 
