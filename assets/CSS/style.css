@@ -117,23 +117,37 @@ div#options {
 
 }
 
-div#options #btn_newtask {
+div#actions #btn_newtask {
     background-color: var(--bool-editorial);
-    color: white;
-    border: 2px;
-    padding: 7px;
-    border-radius: 5px;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0);
-}
-
-div#options #btn_newsection {
-  
-    background-color: transparent;
     background-repeat: no-repeat;
+    margin: 4px;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    border-radius: 15%;
+    color: #ffffff;
     border: none;
     cursor: pointer;
     overflow: hidden;
     outline: none;
+}
+
+div#actions #btn_newsection {
+  
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: lightgray;
+    border: 1px solid lightgray;
+    margin: 4px;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    border-radius: 15%;
+    cursor: pointer;
+    overflow: hidden;
+    outline: 1px;
 }
 
 .item-type {
